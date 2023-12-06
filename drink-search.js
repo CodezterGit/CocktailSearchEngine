@@ -13,7 +13,6 @@ document.getElementById('drink-search').addEventListener('submit', function(even
         body: JSON.stringify({ searchInput }),
         headers: {
             'Content-Type': 'application/json',
-            // Add any AWS authentication headers here if required
         }
     })
     .then(response => response.text())
