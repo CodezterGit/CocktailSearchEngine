@@ -5,7 +5,7 @@ document.getElementById('drink-search').addEventListener('submit', function(even
     const searchInput = document.getElementById('dSearch').value;
 
     // setting API gateway endpoint to variable
-    const apiGatewayEndpoint = 'https://15aw1pweoa.execute-api.us-east-1.amazonaws.com/drinksearchpost';
+    const apiGatewayEndpoint = '#apiGatewayEndpointURL';
 
     // Make a POST request to Lambda through API gateway endpoint
     fetch(apiGatewayEndpoint, {
